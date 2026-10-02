@@ -2,7 +2,7 @@
 # All languages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-LOCAL_PATH := device/explay/fog2
+LOCAL_PATH := device/digma/tt7041aw
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

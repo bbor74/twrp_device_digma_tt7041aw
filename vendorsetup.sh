@@ -17,7 +17,7 @@
 build_root=$(pwd) # vendorsetup.sh is sourced by build/envsetup.sh in root of android build tree. Hope that nobody can correctly source it not from root of android tree.
 
 echo "Applying patches"
-patches_path="$build_root/device/explay/fog2/patches/"
+patches_path="$build_root/device/digma/tt7041aw/patches/"
 pushd "$patches_path" > /dev/null
 unset repos
 for patch in `find -type f -name '*.patch'|cut -d / -f 2-|sort`; do
@@ -71,4 +71,4 @@ done
 popd > /dev/null
 echo "Applying patches: done"
 
-add_lunch_combo omni_fog2-userdebug
+add_lunch_combo omni_tt7041aw-userdebug

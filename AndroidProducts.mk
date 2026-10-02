@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_fog2.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_tt7041aw.mk

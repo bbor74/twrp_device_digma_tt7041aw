@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-LOCAL_PATH := device/explay/fog2
+LOCAL_PATH := device/digma/tt7041aw
 
 USE_CAMERA_STUB := false
 
@@ -79,5 +79,5 @@ TW_DEVICE_VERSION := by bbor74 (nk)-7.1
 # TARGET_USES_LOGD := true
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/explay/fog2/sepolicy
+BOARD_SEPOLICY_DIRS += device/digma/tt7041aw/sepolicy
 

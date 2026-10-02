@@ -1,6 +1,6 @@
-Explay Fog/Favorite/N1 Plus/M1 Plus
+DIGMA Opima 7.11 tt7041aw
 
-For INET-D70-REV02 board
+For INET-D70-REV06 board
 
 TWRP touch recovery
 -------------
