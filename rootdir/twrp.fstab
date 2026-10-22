@@ -7,6 +7,6 @@
 /misc			emmc		/dev/block/by-name/misc 	flags=display="Misc"
 /recovery		emmc		/dev/block/by-name/recovery 	flags=backup=1
 /cache 			ext4		/dev/block/by-name/cache 	flags=backup=1;wipeingui;wipeduringfactoryreset;formattable
-/data			ext4		/dev/block/by-name/UDISK 	flags=backup=1;wipeingui;wipeduringfactoryreset;formattable;encryptable=/dev/block/by-name/databk
+/data			ext4		/dev/block/by-name/UDISK 	flags=backup=1;wipeingui;wipeduringfactoryreset;formattable;encryptable=/dev/block/by-name/metadata
 /external_sd	vfat		/dev/block/mmcblk0p1	/dev/block/mmcblk0 flags=storage;removable;fsflags=utf8
 /usb-otg auto	/dev/block/sda1		/dev/block/sda flags=display="USB-OTG";storage;removable;fsflags=utf8
